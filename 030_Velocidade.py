@@ -10,6 +10,5 @@ multa = ( valor - máxima ) * 7
 
 if valor > máxima:
     print(f"Vixe, você foi multado!! A velocidade máxima era de {máxima} km/h - você estava a {valor} km/h - Sua multa será no total R$ {multa} reais")
-else:
-    print(f"Parabéns, a sua velocidade de {valor}km/h é compatível com a via!!")
+print(f"Parabéns, a sua velocidade de {valor}km/h é compatível com a via!!")
 
