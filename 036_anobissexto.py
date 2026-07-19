@@ -1,8 +1,8 @@
-import time
-
 print('-=-' * 40)
 print('Veja se o ano é Bissexto ou não..')
 ano = int(input("Qual o ano?"))
+
+teste = pandas.cut
 
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
     print(f"O ano informado {ano} é Bissexto!!")
