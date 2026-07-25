@@ -7,15 +7,19 @@
 
 import time
 
-print('=========== LOJAS 100 ===========')
+print(f'{"Lojas sp 🛒":=^40}')
+
 valor = float(input('Qual o valor das compras? R$ '))
+
 print("""
 ☞ [ 1 ] - à vista dinheiro/cheque: 10% de desconto
 ☞ [ 2 ] - à vista no cartão: 5% de desconto
 ☞ [ 3 ] - em até 2x no cartão: preço formal 
 ☞ [ 4 ] - 3x ou mais no cartão: 20% de juros
 """)
+
 time.sleep(1)
+
 forma = int(input('Qual a forma de pagamento? '))
 
 # so vai aparecer se a opção == 4
