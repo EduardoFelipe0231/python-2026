@@ -1,6 +1,4 @@
-# Mostra o emoji e o index
+lista = ['Nome', 'Sobrenome', 'Jesus']
 
-emojis = ['🚃' , '🚋', '🚈']
-
-for i in range(len(emojis)):
-    print(f"{i+0} - {emojis[i]}")
+for i in range(len(lista)):
+    print(f'{lista[i][1]}')

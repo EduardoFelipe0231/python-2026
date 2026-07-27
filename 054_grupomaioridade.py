@@ -25,4 +25,5 @@ for i in range (7):
 print('Calculando...')
 time.sleep(2)
 
+
 print(f'Nos temos {count_maior} pessoas maiores de idade \n E também temos {count_menor} menores de idade')
