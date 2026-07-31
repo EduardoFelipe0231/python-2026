@@ -33,7 +33,7 @@ print('FIM')'''
 
 ##################################
 
-continuar = 'S'
+'''continuar = 'S'
 
 par = impar = 0
 total = 0
@@ -48,5 +48,30 @@ while continuar == 'S':
 
     total += 1
 print(f'Dos {total} números informados, {par} são pares e {impar} é ímpares')
-print('GG.')
+print('GG.')'''
 
+
+
+###########################
+# WHILE TRUE #
+
+'''while True:
+    nome = str(input('Nome: ')).strip().upper()
+    if nome == 'EDUARDO':
+        break
+
+print('Acabou.')'''
+
+
+###########################
+# USO DO BREAK #
+
+n = s = c = 0
+
+while True:
+    n = int(input('Informe um número [ 999 ou 0 para parar]:'))
+    if n == 0 or n == 999:
+        break #para o programa
+    s += n 
+    c += 1
+print(f'Foi digitado {c} números - a soma entre eles são {s}')
