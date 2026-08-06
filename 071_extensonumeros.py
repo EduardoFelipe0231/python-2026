@@ -31,7 +31,7 @@ while True:
                 if num == cont:
                     print(f'Você digitou o número {extenso[cont].upper()}')
                    
-    print(f'NUMERO DIGITADO FOI {extenso[num]}')
+    #print(f'NUMERO DIGITADO FOI {extenso[num]}')
     #valida se não receber S ou N, não avança;
     next = ' '
     while next not in 'SN':
