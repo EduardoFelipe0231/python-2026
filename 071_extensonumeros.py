@@ -41,6 +41,3 @@ while True:
         break    
     
 print('fim')
-
-     
-    
