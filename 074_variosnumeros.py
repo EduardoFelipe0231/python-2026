@@ -33,7 +33,6 @@ if 1 in num:
 else:
     print('O número 1 não foi digitado.')
 # ver se temos par.
-
 for i in num:
     if i % 2 == 0:
         print(f' {i} ', end=' ')
