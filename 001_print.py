@@ -7,3 +7,6 @@ print('Olá, Mundo!')
 msg = 'Hello!'
 
 print(msg)
+print("Mensagem: ", msg)
+print(f'Mensagem: {msg}')
+print(f'{msg}') 

@@ -1,12 +1,6 @@
-import pyautogui
+# usuário cria uma senha.
+senha = str(input('Digite uma senha: ')).strip()
 
-sites = ['youtube.com', 'facebook.com', 'superlive.com', 'hbomax.com', 'cursoemvideo.com']
 
-pyautogui.PAUSE = 0.5
-pyautogui.press("win")
-pyautogui.write("chrome")
-pyautogui.press("enter")
 
-for site in sites:
-    pyautogui.write(site)
-    pyautogui.press("enter")
+
